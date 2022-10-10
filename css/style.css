@@ -4,6 +4,47 @@
     box-sizing: border-box;
 }
 
+:root {
+    
+}
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+ul {
+    list-style: none;
+}
+
+nav {
+    background-color: #0084FD;
+    
+}
+
+
+
+/* contenitori */
+
+.conteiner {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1rem;
+    border: 1px dashed red;
+}
+
+/* img-resize */
+
+.img-logo {
+    display: block;
+    width: 100%;
+}
+
+/* ------------ 
+   responsive 
+--------------- */
+
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 768px)
