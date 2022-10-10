@@ -22,7 +22,9 @@ nav {
 
 }
 
-
+.raw > * {
+    padding: 1rem;
+}
 
 /* contenitori */
 
@@ -33,9 +35,15 @@ nav {
     border: 1px dashed red;
 }
 
-.raw {
+.row {
     display: flex;
     flex-wrap: wrap;
+}
+
+/* padding */
+
+.pad-1r {
+    padding: 1rem;
 }
 
 
