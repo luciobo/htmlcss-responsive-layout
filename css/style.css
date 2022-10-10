@@ -2,10 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    min-height: 20px;
 }
 
 :root {
-    
+    --secondary-color: #B5DCFF;
 }
 
 body {
@@ -18,7 +19,7 @@ ul {
 
 nav {
     background-color: #0084FD;
-    
+
 }
 
 
@@ -30,6 +31,29 @@ nav {
     margin: 0 auto;
     padding: 0 1rem;
     border: 1px dashed red;
+}
+
+.raw {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+/* dimensionamento colonne */
+
+
+.col {
+    background-color: var(--secondary-color);
+    border-radius: 20px;
+}
+
+.col-1_3 {
+    flex-basis: calc(100% / 3)
+}
+
+.col-2_3 {
+   flex-basis: calc((100% / 3) * 2);
 }
 
 /* img-resize */
