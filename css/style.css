@@ -19,12 +19,9 @@ ul {
 
 nav {
     background-color: #0084FD;
-
 }
 
-.raw > * {
-    padding: 1rem;
-}
+
 
 /* contenitori */
 
@@ -35,10 +32,7 @@ nav {
     border: 1px dashed red;
 }
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-}
+
 
 /* padding */
 
@@ -51,7 +45,18 @@ nav {
 /* dimensionamento colonne */
 
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .col {
+
+    padding: 1rem;
+}
+
+.card {
+    padding: 1rem;
     background-color: var(--secondary-color);
     border-radius: 20px;
 }
@@ -63,6 +68,7 @@ nav {
 .col-2_3 {
    flex-basis: calc((100% / 3) * 2);
 }
+
 
 /* img-resize */
 
@@ -79,4 +85,6 @@ nav {
 
 }
 
-@media screen and (max-width: 768px)
+@media screen and (max-width: 768px) {
+
+}
