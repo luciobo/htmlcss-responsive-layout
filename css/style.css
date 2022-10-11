@@ -74,13 +74,24 @@ nav {
     border-radius: 20px;
 }
 
+.col-1_2 {
+    flex-basis: calc(100% / 2);
+}
+
 .col-1_3 {
     flex-basis: calc(100% / 3)
+}
+
+.col-1_4 {
+    flex-basis: calc(100% / 4);
 }
 
 .col-2_3 {
     flex-basis: calc((100% / 3) * 2);
 }
+
+
+
 
 
 /* img-resize */
