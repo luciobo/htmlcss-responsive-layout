@@ -18,6 +18,10 @@ ul {
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+}
+
 nav {
     height: 50px;
     position: fixed;
@@ -27,6 +31,10 @@ nav {
     background-color: #0084FD;
 }
 
+nav div ul {
+    display: none;
+}
+
 
 
 
@@ -34,6 +42,7 @@ nav {
 
 .container {
     width: 100%;
+    max-width: 900px;
     margin: 0 auto;
     padding: 0 1rem;
 }
@@ -201,6 +210,10 @@ nav {
         flex-basis: calc((100% / 3) * 2);
     }
 
+    nav div ul {
+        display: none;
+    }
+
 }
 
 
@@ -233,5 +246,15 @@ nav {
     .container-small {
         width: 70%;
     }
+
+    
+    nav div a {
+        display: none;
+    }
+
+    nav div ul {
+        display: inline-block;
+    }
+
 
 }
