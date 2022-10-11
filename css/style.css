@@ -50,9 +50,7 @@ nav {
     padding: 4rem 0 1.5rem;
 }
 
-
-/* dimensionamento colonne */
-
+/* modifiche nav */
 
 .row-nav {
     display: flex;
@@ -60,12 +58,16 @@ nav {
 }
 
 .row-nav-left {
-    padding: .6rem;
+    padding: .3rem;
 }
 
 .row-nav-right {
-    padding: .6rem;
+    padding: .3rem;
+    text-align: center;
 }
+
+/* dimensionamento colonne */
+
 
 .row {
     display: flex;
