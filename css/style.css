@@ -62,11 +62,15 @@ nav {
     padding: 4rem 0 1.5rem;
 }
 
-/* text align */
+/* modifiche testo */
 
 
 .tex-cent {
     text-align: center;
+}
+
+.text-withe {
+    color: white;
 }
 
 /* modifiche nav */
@@ -86,10 +90,14 @@ nav {
     text-align: center;
 }
 
-/* modifiche section */
+/* modifiche colori background */
 
 .bg-color-p {
     background-color: var(--primary-color);
+}
+
+.bg-color-bl {
+    background-color: black;
 }
 
 /* dimensionamento colonne */
@@ -98,6 +106,12 @@ nav {
 .row {
     display: flex;
     flex-wrap: wrap;
+}
+
+.row-inf {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .col {
