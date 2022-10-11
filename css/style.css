@@ -59,6 +59,14 @@ nav {
     justify-content: space-between;
 }
 
+.row-nav-left {
+    padding: .6rem;
+}
+
+.row-nav-right {
+    padding: .6rem;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
