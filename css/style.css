@@ -23,13 +23,13 @@ nav {
 
 
 
+
 /* contenitori */
 
 .conteiner {
     width: 100%;
     margin: 0 auto;
     padding: 0 1rem;
-    border: 1px dashed red;
 }
 
 
@@ -37,7 +37,7 @@ nav {
 /* padding */
 
 .pad-1r {
-    padding: 1rem;
+    padding: 1.5rem 0;
 }
 
 
@@ -51,12 +51,11 @@ nav {
 }
 
 .col {
-
-    padding: 1rem;
+    padding: .5rem;
 }
 
 .card {
-    padding: 1rem;
+    padding: .5rem;
     background-color: var(--secondary-color);
     border-radius: 20px;
 }
@@ -81,10 +80,10 @@ nav {
    responsive 
 --------------- */
 
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 992px) {
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
 
 }
