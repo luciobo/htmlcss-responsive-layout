@@ -31,9 +31,6 @@ nav {
     background-color: #0084FD;
 }
 
-nav div ul {
-    display: none;
-}
 
 
 
@@ -49,9 +46,15 @@ nav div ul {
 
 .container-small {
     width: 100%;
+    max-width: 700px;
     margin: 0 auto;
     padding: 0 1rem;
 }
+
+nav div ul {
+    display: none;
+}
+
 
 
 
@@ -253,7 +256,7 @@ nav div ul {
     }
 
     nav div ul {
-        display: inline-block;
+        display: block;
     }
 
 
